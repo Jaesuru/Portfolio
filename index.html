@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Jiang</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/9781a5004a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Jason Jiang</h1>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Hey, I'm <span id="full-name">Jason</span>.</h3>
+        <h2><span class="multiple-text"></span></h2>
+        <p>Tech enthusiast, builder, explorer of all things.</p>
+        <div class="social-links">
+            <a href=""><i class="fa-solid fa-inbox"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="" class="button" download>Resume <span id="download-icon"><i class="fa-solid fa-download fa-sm"></i></span></a>
+
+    </section>
+    
+    <hr class="divider">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            My passion for technology began early and has grown into a strong focus on software development—particularly, web development. I’m always eager to learn new technologies, stay current with industry trends, and explore new ideas. I enjoy solving problems, collaborating with others, and building meaningful projects. 
+            Outside of tech, I love playing pickleball, video games, and watching TV shows. I also enjoy photography, cooking, and staying active.
+        </p>
+
+        <img src="/assets/JasonJiangProfile.png" height="300px" width="auto">
+    </section>
+
+    <hr class="divider">
+
+    <section id="skills">
+        <h2>My Tech Stack</h2>
+        <div class="skills-icons">
+            <img src="/assets/icons/Java.png" alt="Java" title="Java">
+            <img src="/assets/icons/Python.png" alt="Python" title="Python"> 
+            <img src="/assets/icons/JavaScript.png" alt="JavaScript" title="JavaScript">
+            <img src="/assets/icons/HTML.png" alt="HTML" title="HTML">
+            <img src="/assets/icons/CSS.png" alt="CSS" title="CSS">
+            <img src="/assets/icons/Swift.png" alt="Swift" title="Swift">
+            <img src="/assets/icons/Git.png" alt="Git" title="Git">
+            <img src="/assets/icons/PostgreSQL.png" alt="PostgreSQL" title="PostgreSQL">
+        </div>
+    </section>
+
+    <section id="experiences">
+        <h2>Experiences</h2>
+        <div class="experience-card">
+            <h3>Student Research Assistant</h3>
+            <h4>National Science Foundation (NSF)</h4>
+            <h4>June 2024 - April 2025</h4>
+            <img src="/assets/logos/NSF.png" alt="NSF" text="NSF" width= 240px height="auto">
+
+            <ul>
+                <li>
+                    Developed a WiFi sensing system with PhD collaborators, leveraging CSI data and ML tools in Python (CSIKit, Pandas, TensorFlow,
+                    PyTorch).
+                </li>
+                <li>
+                    Achieved 85% gesture recognition accuracy applying CNN models on Raspberry Pi 3B+ data with the Nexmon patch, showcasing CSI data’s
+                    potential for robust gesture detection.
+                </li>
+                <li>
+                    Captured and parsed BFI signals using Wireshark, tcpdump, and MATLAB; scripted camera data collection and synchronized datasets to
+                    develop a low-cost, hybrid non-contact respiration monitoring system
+                </li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Game Developer Technical Lead</h3>
+            <h4>CodeCrunch</h4>
+            <h4>January 2025 - May 2025</h4>
+            <img src="/assets/logos/CodeCrunch.png" alt="CodeCrunch" text="CodeCrunch" width= 240px height="auto">
+
+            <ul>
+                <li>
+                    Cooperated with fellow peers, planned lessons, materials, and led interactive Unity workshops, introducing students to fundamental game
+                    development concepts, scripting, and best practices
+                </li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Build Member</h3>
+            <h4>INIT</h4>
+            <h4>September 2022 - May 2025</h4>
+            <img src="/assets/logos/INIT.png" alt="INIT" text="INIT" width= 240px height="auto">
+
+
+            <ul>
+                <li>
+                    Partnered with diverse teams to create innovative projects during build events, workshops, and competitions, demonstrating strong teamwork,
+                    problem-solving, and technical skills
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>DuelDot</h3>
+            <h4>INIT Spring Build 2025's Web Development Game</h4>
+            <img src="/assets/projects/DuelDOT.png" alt="DuelDot" text="DuelDot" height="240px" width="auto">
+
+            <ul>
+                <li>Fast-paced 2D multiplayer shooter game built for the web using HTML, CSS, and JavaScript.</li>
+                <li>Players control a circle and engage in real-time battles, dodging bullets and outmaneuvering opponents.</li>
+                <li>Climb the leaderboard through precision shooting, timing, and strategic movement.</li>
+                <li>Led development of in-game powerups, designing the base model, logic, and functionality.</li>
+                <li>Enhanced gameplay experience by adding dynamic elements that encouraged replayability and strategic depth.</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3>PantryPal</h3>
+            <h4>An iOS Mobile Recipe App</h4>
+            <img src="/assets/projects/PantryPalSS.png" alt="PantryPal" text="PantryPal" height="240px" width="auto">
+
+            <ul>
+                <li>iOS app that enables users to search meals by ingredients, view random recipes, and save favorites.</li>
+                <li>Integrated TheMealDB API to display detailed recipes with ingredients, instructions, and images.</li>
+                <li>Led development using SwiftUI, creating the core architecture and multi-screen navigation flow.</li>
+                <li>Implemented dynamic search functionality and favorites tracking with responsive UI components.</li>
+                <li>Resolved bugs involving image loading, layout responsiveness, and overall user experience.</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <h4>A Personal Web Development Project</h4>
+            <img src="/assets/projects/WebsiteLogo.png" alt="Old Portfolio" text="Old Portfolio" height="240px" width="auto">
+
+            <ul>
+                <li>Designed and developed a personal portfolio to highlight my skills, projects, and experiences.</li>
+                <li>Focused on clean, modern aesthetics and responsive design for optimal viewing on all devices.</li>
+                <li>Serves as a hub for potential employers and collaborators to explore my technical background and interests.</li>
+                <li>Continuously updated with new content and improvements as my journey evolves.</li>
+                <li>This is the second iteration, rebuilt from an earlier version to reflect my growth and current capabilities.</li>
+            </ul>
+        </div>
+
+
+
+    </section>
+
+    <hr class="divider">
+
+    <footer>
+        <h2>Contact Me</h2>
+        <h3>jiang.jason03@gmail.com</h3>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

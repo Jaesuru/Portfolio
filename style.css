@@ -1,0 +1,102 @@
+@font-face {
+    src: url(/fonts/FiraCode-VariableFont_wght.ttf);
+    font-family: fira;
+}
+
+@font-face {
+    src: url(/fonts/Tiny5-Regular.ttf);
+    font-family: tiny5;
+}
+
+* {
+    font-family: tiny5, fira;
+}
+
+body {
+    background-color: hsla(0, 0%, 10%, 0.98);
+    color: white;
+    font-size: 1.5em;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsla(0, 0%, 10%, 0.98);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25em 1em;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+#home .multiple-text {
+    color: #00eeff;
+    display: inline-block;
+}
+
+#home #full-name {
+    background-color: hsla(0, 0%, 100%, 0.95);
+    color: hsl(0, 0%, 10%);
+    border-radius: 4px;
+    padding: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 4px;
+    font-size: 1.2em;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    gap: 1em;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 1em; /* Space between text and icon */
+    background-color: hsla(0, 0%, 100%, 0.95);
+    color: hsla(0, 0%, 10%, 0.98);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.75em;
+    margin-top: 1em;
+}
+
+
+.divider {
+    
+}
+
+
