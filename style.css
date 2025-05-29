@@ -102,7 +102,15 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2em;
+    padding: 2rem;
+}
+
+#home h1 {
+    margin: -1rem;
+}
+
+#home h2 {
+    margin-bottom: -.5rem;
 }
 
 #home .multiple-text {
@@ -439,6 +447,20 @@ header {
     border-radius: 10px;
     margin: 1.5em 0;
     transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .project-card img {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+        max-height: 300px;
+    }
+    
+    .project-card {
+        padding: 1em;
+        margin: 0 auto 1.5em auto;
+    }
 }
 
 .project-card ul {
