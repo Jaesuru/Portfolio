@@ -26,11 +26,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: hsla(0, 0%, 10%, 0.98);
+    background-color: hsla(0, 0%, 10%, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: .25em 1em;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-btn {
@@ -423,11 +425,6 @@ header {
     width: calc(100% - 3em);
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.08);
-}
-
 .project-card h3 {
     color: #00eeff;
     margin-bottom: 0.5em;
@@ -446,10 +443,6 @@ header {
     border-radius: 10px;
     margin: 1.5em 0;
     transition: transform 0.3s ease;
-}
-
-.project-card img:hover {
-    transform: scale(1.02);
 }
 
 .project-card ul {
