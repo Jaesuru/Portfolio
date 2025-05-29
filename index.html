@@ -12,7 +12,10 @@
 </head>
 <body>
     <header>
-        <h1>Jason Jiang</h1>
+        <h2>Jason Jiang</h2>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
@@ -25,7 +28,7 @@
 
     <section id="home">
         <h1>Hey, I'm <span id="full-name">Jason</span>.</h3>
-        <h2><span class="multiple-text"></span></h2>
+        <h2>A <span class="multiple-text"></span></h2>
         <p>Tech enthusiast, builder, explorer of all things.</p>
         <div class="social-links">
             <a href=""><i class="fa-solid fa-inbox"></i></a>
@@ -37,19 +40,25 @@
 
     </section>
     
-    <hr class="divider">
-
     <section id="about">
         <h2>About Me</h2>
-        <p>
-            My passion for technology began early and has grown into a strong focus on software development—particularly, web development. I’m always eager to learn new technologies, stay current with industry trends, and explore new ideas. I enjoy solving problems, collaborating with others, and building meaningful projects. 
-            Outside of tech, I love playing pickleball, video games, and watching TV shows. I also enjoy photography, cooking, and staying active.
-        </p>
+        <div class="about-content">
+            <p>
+                Hello! I’m <span class="about-emphasis">Jason Jiang</span>, a Computer Science graduate 
+                from <span class="about-emphasis">Florida International University</span> 
+                with a strong passion for software and web development. 
+                I thrive on learning new technologies, staying ahead of industry trends,
+                and delivering impactful projects through creative problem-solving and 
+                effective collaboration. My technical skills include 
+                <span class="about-emphasis">Java, Python, HTML, CSS, JavaScript,</span> and
+                <span class="about-emphasis">Git</span> for version control. Outside of technology, 
+                I enjoy staying active through pickleball, photography, cooking, and 
+                gaming, which help me maintain a balanced and creative mindset.
+            </p>
 
-        <img src="/assets/JasonJiangProfile.png" height="300px" width="auto">
+            <img src="/assets/JasonJiangProfile.png" height="300px" width="auto">
+        </div>
     </section>
-
-    <hr class="divider">
 
     <section id="skills">
         <h2>My Tech Stack</h2>
@@ -70,9 +79,7 @@
         <div class="experience-card">
             <h3>Student Research Assistant</h3>
             <h4>National Science Foundation (NSF)</h4>
-            <h4>June 2024 - April 2025</h4>
-            <img src="/assets/logos/NSF.png" alt="NSF" text="NSF" width= 240px height="auto">
-
+            <h6>June 2024 - April 2025</h6>
             <ul>
                 <li>
                     Developed a WiFi sensing system with PhD collaborators, leveraging CSI data and ML tools in Python (CSIKit, Pandas, TensorFlow,
@@ -87,28 +94,27 @@
                     develop a low-cost, hybrid non-contact respiration monitoring system
                 </li>
             </ul>
+            <img src="/assets/logos/NSF.png" alt="NSF" text="NSF" width= 240px height="auto">
         </div>
 
         <div class="experience-card">
             <h3>Game Developer Technical Lead</h3>
             <h4>CodeCrunch</h4>
             <h4>January 2025 - May 2025</h4>
-            <img src="/assets/logos/CodeCrunch.png" alt="CodeCrunch" text="CodeCrunch" width= 240px height="auto">
-
             <ul>
                 <li>
                     Cooperated with fellow peers, planned lessons, materials, and led interactive Unity workshops, introducing students to fundamental game
                     development concepts, scripting, and best practices
                 </li>
             </ul>
+            <img src="/assets/logos/CodeCrunch.png" alt="CodeCrunch" text="CodeCrunch" width= 240px height="auto">
+
         </div>
 
         <div class="experience-card">
             <h3>Build Member</h3>
             <h4>INIT</h4>
             <h4>September 2022 - May 2025</h4>
-            <img src="/assets/logos/INIT.png" alt="INIT" text="INIT" width= 240px height="auto">
-
 
             <ul>
                 <li>
@@ -116,62 +122,205 @@
                     problem-solving, and technical skills
                 </li>
             </ul>
+            <img src="/assets/logos/INIT.png" alt="INIT" text="INIT" width= 240px height="auto">
         </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
+        
         <div class="project-card">
             <h3>DuelDot</h3>
             <h4>INIT Spring Build 2025's Web Development Game</h4>
-            <img src="/assets/projects/DuelDOT.png" alt="DuelDot" text="DuelDot" height="240px" width="auto">
-
+            <div class="tech-use">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Node.js</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/DuelDOT.png" alt="DuelDot" class="project-img">
             <ul>
-                <li>Fast-paced 2D multiplayer shooter game built for the web using HTML, CSS, and JavaScript.</li>
-                <li>Players control a circle and engage in real-time battles, dodging bullets and outmaneuvering opponents.</li>
-                <li>Climb the leaderboard through precision shooting, timing, and strategic movement.</li>
-                <li>Led development of in-game powerups, designing the base model, logic, and functionality.</li>
-                <li>Enhanced gameplay experience by adding dynamic elements that encouraged replayability and strategic depth.</li>
+                <li>Fast-paced 2D multiplayer shooter game built for the web using HTML, CSS, and JavaScript</li>
+                <li>Players control a circle and engage in real-time battles, dodging bullets and outmaneuvering opponents</li>
+                <li>Developed core powerup system, including base model, logic, and functionality implementation</li>
+                <li>Enhanced gameplay experience by adding dynamic elements that encouraged replayability</li>
+                <li>Implemented strategic movement and precision shooting mechanics for intense multiplayer battles</li>
             </ul>
         </div>
 
         <div class="project-card">
             <h3>PantryPal</h3>
             <h4>An iOS Mobile Recipe App</h4>
-            <img src="/assets/projects/PantryPalSS.png" alt="PantryPal" text="PantryPal" height="240px" width="auto">
-
+            <div class="tech-use">
+                <p>SwiftUI</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/PantryPalSS.png" alt="PantryPal" class="project-img">
             <ul>
-                <li>iOS app that enables users to search meals by ingredients, view random recipes, and save favorites.</li>
-                <li>Integrated TheMealDB API to display detailed recipes with ingredients, instructions, and images.</li>
-                <li>Led development using SwiftUI, creating the core architecture and multi-screen navigation flow.</li>
-                <li>Implemented dynamic search functionality and favorites tracking with responsive UI components.</li>
-                <li>Resolved bugs involving image loading, layout responsiveness, and overall user experience.</li>
+                <li>Developed an iOS app enabling users to search meals by ingredients and save favorites</li>
+                <li>Integrated TheMealDB API for detailed recipes with ingredients, instructions, and images</li>
+                <li>Led development using SwiftUI, creating the core architecture and multi-screen navigation</li>
+                <li>Implemented dynamic search functionality and favorites tracking with responsive UI</li>
+                <li>Resolved UI/UX issues including image loading and layout responsiveness</li>
             </ul>
         </div>
 
         <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <h4>A Personal Web Development Project</h4>
-            <img src="/assets/projects/WebsiteLogo.png" alt="Old Portfolio" text="Old Portfolio" height="240px" width="auto">
-
+            <h3>Orchid's Veil</h3>
+            <h4>INIT Build Fall 2024's 2D Bullethell Game</h4>
+            <div class="tech-use">
+                <p>Godot Engine</p>
+                <p>GDScript</p>
+                <p>Asesprite</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/Orchid'sVeil.png" alt="Orchid's Veil" class="project-img">
             <ul>
-                <li>Designed and developed a personal portfolio to highlight my skills, projects, and experiences.</li>
-                <li>Focused on clean, modern aesthetics and responsive design for optimal viewing on all devices.</li>
-                <li>Serves as a hub for potential employers and collaborators to explore my technical background and interests.</li>
-                <li>Continuously updated with new content and improvements as my journey evolves.</li>
-                <li>This is the second iteration, rebuilt from an earlier version to reflect my growth and current capabilities.</li>
+                <li>Developed an arcade-style Shoot 'Em Up game with engaging gameplay mechanics</li>
+                <li>Designed and implemented balanced enemy behaviors and attack patterns</li>
+                <li>Created custom art assets matching the game's visual style and narrative</li>
+                <li>Collaborated with a multidisciplinary team to integrate code, art, and design</li>
+                <li>Delivered a polished and cohesive final product for the INIT Build event</li>
             </ul>
         </div>
 
+        <div class="project-card">
+            <h3>YumHub</h3>
+            <h4>ShellHacks Hackathon of 2024 Recipe Browser</h4>
+            <div class="tech-use">
+                <p>Python</p>
+                <p>Streamlit</p>
+                <p>API Integration</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/YumHubLogo.png" alt="YumHub" class="project-img">
+            <ul>
+                <li>Built a Streamlit web application for recipe discovery and nutritional insights</li>
+                <li>Completed development within a challenging 36-hour hackathon timeframe</li>
+                <li>Integrated multiple APIs for comprehensive recipe and nutrition data</li>
+                <li>Implemented efficient project workflows and debugging processes</li>
+                <li>Created an intuitive user interface for seamless recipe browsing</li>
+            </ul>
+        </div>
 
+        <div class="project-card">
+            <h3>BotaniDex</h3>
+            <h4>Your Plant Care Assistant</h4>
+            <div class="tech-use">
+                <p>Python</p>
+                <p>Streamlit</p>
+                <p>API Integration</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/BotaniDex.png" alt="BotaniDex" class="project-img">
+            <ul>
+                <li>Created a Streamlit app for discovering plant care instructions and safety information</li>
+                <li>Integrated Perenual API for detailed plant species data and care guidelines</li>
+                <li>Implemented features for growth rates, care levels, and origin information</li>
+                <li>Developed interactive user interface for intuitive plant information access</li>
+                <li>Enhanced user experience with responsive design and efficient data processing</li>
+            </ul>
+        </div>
 
+        <div class="project-card">
+            <h3>WiFi CSI Data Analysis Research</h3>
+            <h4>Researching with WiFi CSI Data</h4>
+            <div class="tech-use">
+                <p>Python</p>
+                <p>PyTorch</p>
+                <p>Machine Learning</p>
+                <p>Raspberry Pi</p>
+                <p>Linux</p>
+            </div>
+            <img src="assets/projects/Research.png" alt="WiFi CSI Data Analysis" class="project-img">
+            <ul>
+                <li>Analyzed WiFi Channel State Information data using machine learning models</li>
+                <li>Built and trained PyTorch models for pattern extraction from raw WiFi data</li>
+                <li>Collected data using Raspberry Pi and Linux-based systems</li>
+                <li>Performed data preprocessing and model evaluation tasks</li>
+                <li>Applied machine learning concepts to wireless communication analysis</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3>Java Chess Game</h3>
+            <h4>A Classic Chess Game Built in Java</h4>
+            <div class="tech-use">
+                <p>Java</p>
+                <p>IntelliJ IDEA</p>
+                <p>Object-Oriented Design</p>
+            </div>
+            <img src="assets/projects/Chess.png" alt="Java Chess Game" class="project-img">
+            <ul>
+                <li>Developed a two-player chess game with traditional rules and intuitive interface</li>
+                <li>Implemented comprehensive move validation and game state management</li>
+                <li>Applied object-oriented design principles for maintainable code structure</li>
+                <li>Created modular components for game logic and user interface</li>
+                <li>Enhanced Java programming skills through practical application</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3>ArcanaUnbound</h3>
+            <h4>A Text-Based Adventure Game</h4>
+            <div class="tech-use">
+                <p>Python</p>
+                <p>PyCharm</p>
+                <p>Object-Oriented Programming</p>
+            </div>
+            <img src="assets/projects/Arcana.png" alt="ArcanaUnbound" class="project-img">
+            <ul>
+                <li>Created an interactive text-based adventure game with branching narratives</li>
+                <li>Implemented character creation and multiple dialogue options</li>
+                <li>Designed randomized elements for unique playthrough experiences</li>
+                <li>Utilized object-oriented programming for scalable game logic</li>
+                <li>Developed engaging storylines with meaningful player choices</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3>Alliance Battlegrounds</h3>
+            <h4>3D Multiplayer Loot n' Shoot Game for INIT Build Spring 2024</h4>
+            <div class="tech-use">
+                <p>Unity</p>
+                <p>C#</p>
+                <p>Git</p>
+            </div>
+            <img src="assets/projects/Alliance.png" alt="Alliance Battlegrounds" class="project-img">
+            <ul>
+                <li>Developed a 3D multiplayer loot n' shoot game using Unity and C#</li>
+                <li>Implemented strategic power-up features and gameplay mechanics</li>
+                <li>Created visually engaging environments and game elements</li>
+                <li>Collaborated on multiplayer functionality implementation</li>
+                <li>Optimized performance for smooth combat scenarios</li>
+            </ul>
+        </div>
+    </section>    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-text">
+                <p>I'm always interested in hearing about new opportunities, collaborations, or just having a friendly chat about technology. Feel free to reach out!</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:jiang.jason03@gmail.com">jiang.jason03@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/your-linkedin" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/your-github" target="_blank">GitHub Profile</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <hr class="divider">
-
     <footer>
-        <h2>Contact Me</h2>
-        <h3>jiang.jason03@gmail.com</h3>
+        <p>&copy; 2025 Jason Jiang. All rights reserved.</p>
     </footer>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
