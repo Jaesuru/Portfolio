@@ -315,10 +315,6 @@ header {
     position: relative;
 }
 
-.experience-card:hover {
-    transform: translateY(-5px);
-}
-
 .experience-card h3 {
     color: #00eeff;
     margin-bottom: 0.5em;
